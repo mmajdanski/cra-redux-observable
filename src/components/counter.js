@@ -1,6 +1,9 @@
 import React from 'react';
 import { connect } from 'react-redux';
+import {updateCounter} from '../actions/counterActions'
 
+//The value that the counter will increase/decrease per click
+const counterStep = 1
 
 const CounterComponent = (props) => {
   return(
@@ -12,19 +15,19 @@ const CounterComponent = (props) => {
   )
 }
 
-const mapStateToProps = (state, ownProps) => {
+const mapStateToProps = (state) => {
     return {
       counter: state.counterReducer
     }
   }
 
-const mapDispatchToProps = (dispatch, ownProps) => {
+const mapDispatchToProps = (dispatch) => {
     return {
         increment: () => {
-        dispatch({type: 'INCREMENT', payload: 1})
+        dispatch(updateCounter(counterStep))
         },
         decrement: () => {
-        dispatch({type: 'DECREMENT', payload: -1})
+        dispatch(updateCounter(-counterStep))
         }
     }
 }

@@ -1,4 +1,5 @@
 
+  
 # cra-redux-observable
 
 
@@ -65,8 +66,10 @@ The logic for your reducers (aka Redux logic) will all be contained with `/src/r
 
 [Official RxJS Documentation](https://rxjs-dev.firebaseapp.com/)
 
+## For any updates to the repo, please visit the changelog
+
+Located [here](https://github.com/mmajdanski/cra-redux-observable/blob/master/CHANGELOG.md).
+
 ## Something Missing or Incorrect?
 
 File an issue [here](https://github.com/mmajdanski/cra-redux-observable/issues).
-
-
