@@ -1,3 +1,8 @@
+## 0.3.0 (Dec 31, 2018)
+
+### Updated all relative packages in package.json to support latest versioning.
+For more details please view commit: 17978d98b1dbfcbaf07a17f627afb13d41ae4515
+
 ## 0.2.0 (Aug 24, 2018)
 
 ### File Structure and Actions
