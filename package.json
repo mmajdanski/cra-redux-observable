@@ -1,20 +1,26 @@
 {
   "name": "cra-redux-observable",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "private": true,
   "dependencies": {
-    "react": "^16.4.2",
-    "react-dom": "^16.4.2",
-    "react-redux": "^5.0.7",
-    "react-scripts": "1.1.5",
-    "redux": "^4.0.0",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0",
+    "react-redux": "^6.0.0",
+    "react-scripts": "^2.1.2",
+    "redux": "^4.0.1",
     "redux-observable": "^1.0.0",
-    "rxjs": "^6.2.2"
+    "rxjs": "^6.3.3"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
-  }
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
 }
